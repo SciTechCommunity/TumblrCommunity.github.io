@@ -1,5 +1,7 @@
 # TumblrCommunity.github.io
 
+TO install the project run: `npm install`
+
 To run the project in test mode, launch these commands separately:
 ```
 npm run build -- -w

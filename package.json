@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "build": "babel src -d bin",
-    "pack": "webpack bin/Main.js -o dist.js",
+    "pack": "webpack bin/Main.js -o dist/app.js",
     "serve": "lt -p 1629",
     "start": "http-server -a localhost -p 1629"
   },
@@ -34,11 +34,11 @@
     "@babel/preset-env": "^7.1.0",
     "http-server": "^0.11.1",
     "localtunnel": "^1.9.1",
-    "mithril": "^1.1.6",
     "webpack": "^4.21.0",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "mithril": "^1.1.6",
     "semantic-ui": "^2.4.2"
   }
 }
